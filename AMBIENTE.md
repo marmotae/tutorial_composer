@@ -18,3 +18,5 @@ Una vez iniciada la máquina, debemos revisar que la distribución de teclado co
 En nuestra pantalla tenemos botones en la parte inferior, localizar el botón de terminal y presionarlo para mostrar una terminal. Escribir unos cuantos caracteres especiales (acentos o ñ) para ver si el teclado está bien configurado. En caso contrario dar click sobre el botón de teclado para ciclar por las distintas opciones hasta encontrar la opción correcta
 
 ![Imagen 002](images/002.png)
+
+[__Regresar al Inicio__](README.md)

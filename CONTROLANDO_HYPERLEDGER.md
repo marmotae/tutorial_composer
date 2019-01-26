@@ -55,3 +55,5 @@ Para borrar totalmente una instancia de Hyperledger Fabric previamente creada, d
 ```
 
 Cabe hacer notar que luego de esto podemos volver a ejecutar el comando `./startFabric.sh` para iniciar, pero así mismo debemos volvel a ejecutar el comando `./createPeerAdminCard.sh` ya que al borrar la instancia se borran las cartas credenciales
+
+[__Regresar al Inicio__](README.md)
