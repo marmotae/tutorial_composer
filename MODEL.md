@@ -39,12 +39,12 @@ Como regla general, todos los participantes deben tener un atributo que los iden
 ## 5. Los Tipos Primitivos
 Composer reconoce los siguiente tipos primitivos:
 
-    - String: Una cadena de texto.
-    - Double: Un número de doble precisión
-    - Integer: Un número entero con signo de 32 bits
-    - Long: Un número entero con signo de 64 bits.
-    - DateTime: una estructura de hora y fecha en formato ISO-8601 que de manera optativa puede integrar desface horario y huso horario
-    - Boolean: un valor booleano que puede ser verdadero o falso
+- String: Una cadena de texto.
+- Double: Un número de doble precisión
+- Integer: Un número entero con signo de 32 bits
+- Long: Un número entero con signo de 64 bits.
+- DateTime: una estructura de hora y fecha en formato ISO-8601 que de manera optativa puede integrar desface horario y huso horario
+- Boolean: un valor booleano que puede ser verdadero o falso
 
 ## 6. Definiendo Activos
 Ahora debemos definir un activo a manejar en nuestra red de negocio. Dentro de Composer, los activos se definen con la palabra clave __asset__. A continuación definiremos a nuestro primer activo, la mercancia
