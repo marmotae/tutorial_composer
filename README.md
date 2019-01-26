@@ -7,6 +7,8 @@ Este tutorial fue creado para introducir al estudiante al desarrollo de solucion
 
 El material de este tutorial abarca las siguientes secciones
 
+1. [Preparando la Máquina Virtual](AMBIENTE.md)
+2. [Controlando Hyperledger Fabric](CONTROLANDO_HYPERLEDGER.md)
 
 ## Licencia
 Este material se presenta bajo la licencia [Apache 2.0](LICENSE).

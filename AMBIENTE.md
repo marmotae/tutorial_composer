@@ -1,7 +1,8 @@
 # Instrucciones para la creación del ambiente de trabajo
 ## Introducción
-Siguiendo las siguientes instrucciones, se espera que el alumno obtenga la capacidad de inicializar el ambiente de desarrollo sobre el que se soportará el curso
-## 1. Preparando el ambiente
+Siguiendo las siguientes instrucciones, se espera que el alumno revise la existencia de la máquina virtual que se usará en el curso y que la tenga configurada correctamente a su equipo
+
+## 1. Preparando la Máquina Virtual
 Para la ejecución de este taller, se les ha proporcionado una maquina virtual previamente configurada con Linux y contiene un ambiente de desarrollo listo. Este ambiente de desarrollo contiene un entorno de Blockchain basado en Hyperledger Fabric y un entorno de desarrollo sencillo basado en Hyperledger Composer.
 
 __Nota:__ Por favor revisen que tienen la máquina virtual instalada en su máquina y en caso de no encontrarla comentar con el profesor o el laboratorista
@@ -18,3 +19,4 @@ En nuestra pantalla tenemos botones en la parte inferior, localizar el botón de
 
 ![Imagen 002](images/002.png)
 
+### 1.3 
