@@ -10,11 +10,7 @@ Iniciamos seleccionando del menú del lado izquierdo, la sección marcada como _
 
 ![Imagen 010](images/010.png)
 
-Al hacerlo, el editor nos muestra un texto sugerido, mismo que deberemos borrar. 
-
-![Imagen 011](images/011.png)
-
-En lugar de dicho texto deberemos escribir lo siguiente
+Al hacerlo, el editor del lado derecho nos muestra un texto sugerido, mismo que deberemos borrar. En lugar de dicho texto deberemos escribir lo siguiente
 
 ```
 /*
@@ -75,3 +71,5 @@ transaction Opera {
 }
 ```
 Como podemos ver en esta definición __no__ especificamos la lógica que gobierna la transacción, solo la nombramos y definimos que parámetros serán utilizados para poder operar la transacción. En este caso nuestros parámetros serán una referencia a la mercancia que será vendida y una referencia al comerciante que comprará la mercancia
+
+[__Regresar al Inicio__](README.md)
