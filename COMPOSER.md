@@ -40,6 +40,6 @@ Finalmente hacemos click en el botón para desplegar la red
 ### 2.4 Conectándonos a la Red
 Una vez que la red ha sido creada, nos conectamos a ella en la nueva credencial creada para el administrador
 
-![Imagen 008](images/008.png)
+![Imagen 009](images/009.png)
 
 [__Regresar al Inicio__](README.md)
