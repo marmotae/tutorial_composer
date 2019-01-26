@@ -1,4 +1,3 @@
-
 /*
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -25,7 +24,7 @@ rule ComercianteVerComerciantes {
     description: "Regla que permite a un comerciante ver a otros comerciantes"
     participant: "org.tutorial.mercancias.Comerciante"
     operation: READ
-    resource: "**"
+    resource: "org.tutorial.mercancias.Comerciante"
     action: ALLOW
 }
 
@@ -44,4 +43,13 @@ rule ComercianteSystem {
     operation: READ
     resource: "org.hyperledger.composer.system.**"
     action: ALLOW
+}
+
+rule ComercianteVeSusMercancias {
+  description: "Regla que permite que un comerciante vea mercancias de las que es dueño"
+  participant(p): "org.tutorial.mercancias.Comerciante"
+  operation: READ
+  resource(r): "org.tutorial.mercancias.Mercancia"
+  condition: (p.getIdentifier() == r.dueño.getIdentifier())
+  action:ALLOW
 }
