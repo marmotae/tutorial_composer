@@ -10,8 +10,11 @@ __Nota:__ Por favor revisen que tienen la máquina virtual instalada en su máqu
 Para entrar a la máquina virtual, nos firmamos como el usuario __osboxes.org__ con la contraseña __osboxes.org__
 
 ![Imagen 001](images/001.png)
+
 ### 1.2 Preparando la Máquina
 Una vez iniciada la máquina, debemos revisar que la distribución de teclado corresponda con la máquina que tenemos. Para estar listo, la maquina virtual cuenta con configuraciones para teclados en inglés, español y español latinoamericano. 
+
 En nuestra pantalla tenemos botones en la parte inferior, localizar el botón de terminal y presionarlo para mostrar una terminal. Escribir unos cuantos caracteres especiales (acentos o ñ) para ver si el teclado está bien configurado. En caso contrario dar click sobre el botón de teclado para ciclar por las distintas opciones hasta encontrar la opción correcta
+
 ![Imagen 002](images/002.png)
 
