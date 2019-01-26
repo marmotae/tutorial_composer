@@ -42,4 +42,4 @@ Una vez que la red ha sido creada, nos conectamos a ella en la nueva credencial 
 
 ![Imagen 008](images/008.png)
 
-[__Regresar al Inicio__](README.MD)
+[__Regresar al Inicio__](README.md)
