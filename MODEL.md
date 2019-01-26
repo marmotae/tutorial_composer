@@ -72,4 +72,15 @@ transaction Opera {
 ```
 Como podemos ver en esta definición __no__ especificamos la lógica que gobierna la transacción, solo la nombramos y definimos que parámetros serán utilizados para poder operar la transacción. En este caso nuestros parámetros serán una referencia a la mercancia que será vendida y una referencia al comerciante que comprará la mercancia
 
+## 8. Definiendo Eventos
+Las transacciones dentro de las redes de negocio pueden disparar eventos. Dentro de composer, los eventos se definen con la palabra clave __event__. A continuación definiremos nuestro primer evento, __EventoOperacion__ que como su nombre indica, sera disparado cada vez que se realize una operación
+
+```
+event EventoOperacion {
+  --> Mercancia mercancia
+  --> Comerciante viejoDueño
+}
+```
+Como podemos ver, en este caso se especifican los parámetros que constituyen el evento. En este caso, nuestro evento tiene una referencia a la mercacía vendida y una referencia al comerciante que vendió dicha mercancía. Al igual que en el caso de la transacción, no definimos lógica, tan solo se define el modelo o estructura
+
 [__Regresar al Inicio__](README.md)
