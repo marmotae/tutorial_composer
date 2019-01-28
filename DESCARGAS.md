@@ -3,7 +3,7 @@
 Estas son diversas descargas que pueden ser usadas por los estudiantes para replicar el taller y para referenciar el material teórico impartido durante la primera sesión
 
 ## 2. Presentación
-La presentación utilizada durante la sesión teórica puede ser descargada [aquí](./presentacion/Introduccion al Blockchain.pptx)
+La presentación utilizada durante la sesión teórica puede ser descargada [aquí](https://ibm.box.com/s/tmfzq0hvfp2bx16uz3mn2by4ew2kfd2n)
 
 ## 3. Modelo
 Una copia del modelo desarrollado durante la segunda sesión puede ser descargada [aquí](./modelo/modelo.bna)
