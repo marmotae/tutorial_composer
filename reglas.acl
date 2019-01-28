@@ -1,47 +1,18 @@
 /*
- * Licensed under the Apache License, Version 2.0 (the "License");
- * you may not use this file except in compliance with the License.
- * You may obtain a copy of the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS,
- * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
- * See the License for the specific language governing permissions and
- * limitations under the License.
+ * Archivo con las reglas de acceso para el tutorial 
+ * de blockchain
  */
 
-rule NetworkAdminUser {
-    description: "Grant business network administrators full access to user resources"
-    participant: "org.hyperledger.composer.system.NetworkAdmin"
-    operation: ALL
-    resource: "**"
-    action: ALLOW
-}
 
-rule ComercianteVerComerciantes {
+/**
+ * Reglas para los comerciantes
+ */
+
+ rule ComercianteVerComerciantes {
     description: "Regla que permite a un comerciante ver a otros comerciantes"
     participant: "org.tutorial.mercancias.Comerciante"
     operation: READ
     resource: "org.tutorial.mercancias.Comerciante"
-    action: ALLOW
-}
-
-
-rule NetworkAdminSystem {
-    description: "Grant business network administrators full access to system resources"
-    participant: "org.hyperledger.composer.system.NetworkAdmin"
-    operation: ALL
-    resource: "org.hyperledger.composer.system.**"
-    action: ALLOW
-}
-
-rule ComercianteSystem {
-    description: "Reglas para dar acceso al sistema al comerciante"
-    participant: "org.tutorial.mercancias.Comerciante"
-    operation: READ
-    resource: "org.hyperledger.composer.system.**"
     action: ALLOW
 }
 
@@ -52,4 +23,31 @@ rule ComercianteVeSusMercancias {
   resource(r): "org.tutorial.mercancias.Mercancia"
   condition: (p.getIdentifier() == r.dueño.getIdentifier())
   action:ALLOW
+}
+
+rule ComercianteSystem {
+    description: "Reglas para dar acceso al sistema al comerciante"
+    participant: "org.tutorial.mercancias.Comerciante"
+    operation: READ
+    resource: "org.hyperledger.composer.system.**"
+    action: ALLOW
+}
+
+/**
+ * Reglas para el Administrador
+ */
+rule NetworkAdminUser {
+    description: "Grant business network administrators full access to user resources"
+    participant: "org.hyperledger.composer.system.NetworkAdmin"
+    operation: ALL
+    resource: "**"
+    action: ALLOW
+}
+
+rule NetworkAdminSystem {
+    description: "Grant business network administrators full access to system resources"
+    participant: "org.hyperledger.composer.system.NetworkAdmin"
+    operation: ALL
+    resource: "org.hyperledger.composer.system.**"
+    action: ALLOW
 }
