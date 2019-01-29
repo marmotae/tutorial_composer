@@ -88,6 +88,18 @@ rule ReglaCondicionalTransaccional {
     action: ALLOW
 }
 ```
+__Importante__ Estas reglas condicionales limitan el acceso a un recurso mediante una transacción, en este caso a un activo, sin embargo es importante notar que adicionalmente a esto se requiere tener un permiso separado que de acceso a la transacción misma con la operación __CREATE__. Siguiente este ejemplo, adicionalmente a la regla anterior necesitaríamos una regla adicional bajo la siguiente forma:
+
+```
+rule ReglaAccesoATransaccion {
+    description: "Descripción de la regla"
+    participant: "org.ejemplo.Participante"
+    operation: CREATE
+    resource: "org.ejemplo.TransaccionEjemplo"
+    action: ALLOW
+}
+```
+Como podemos ver, estamos permitiendo a el participante `org.ejemplo.Participante` el crear un recurso del tipo `org.ejemplo.TransaccionEjemplo`, o lo que es lo mismo estamos estableciendo que el participante puede invocar esta transacción.
 
 ## 2.3 Notas Adicionales
 
@@ -106,5 +118,6 @@ Como podemos ver, la diferencia entre ambas consisten en que agregamos al final 
 Esta misma lógica, aplica para los recursos por lo que si quisieramos, continuando con nuestro ejemplo, crear una regla que únicamente aplicara sobre el recurso `activo1` la definiríamos de la siguiente forma:
 
 `resource: "org.ejemplo.Activo#activo1"`
+
 
 [__Regresar al Inicio__](README.md)
