@@ -1,6 +1,6 @@
 # Instrucciones para la Creación de Reglas de Acceso
 ## Introducción
-Siguiendo las siguientes instrucciones, se espera que el alumno pueda actualizar las reglas de acceso del Blockchain con lo que aprenderá a autorizar o denegar el acceso a transacciones y recursos a perfiles específicos
+Este documento, presenta una vista de como se editan las reglas de acceso y busca explicar al alumno como utilizar las reglas para controlar el acceso a los distintos recursos de la aplicación
 
 ## 1. Accediendo al Editor de Reglas
 Para iniciar la edición de reglas, debemos asegurarnos que estamos dentro de la opción de definición de la red de negocio como se muestra a continuación:
@@ -50,7 +50,7 @@ Esto denegaría la totalidad de las operaciones pues el valor de __action__ es _
 Asumamos ahora que mas bién lo que queremos es permitir que el participante pueda únicamente leer y actualizar el valor del activo, entonces nuestra regla quedaría como:
 
 ```
-rule ReglaCondicionada {
+rule ReglaSimple {
     description: "Descripción de la regla"
     participant: "org.ejemplo.Participante"
     operation: READ,UPDATE

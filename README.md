@@ -12,7 +12,8 @@ El material de este tutorial abarca las siguientes secciones
 3. [Iniciando el Editor de Hyperledger Composer](COMPOSER.md)
 4. [Modelando la Red de Negocios](MODEL.md)
 5. [Modelando el Contrato Inteligente](LOGIC.md)
-6. [Modelando Reglas de Acceso](REGLAS.md)
+6. [Entendiendo las Reglas de Acceso](REGLAS.md)
+7. [Definiendo las Reglas para Nuestro Ejemplo](TUTREGLAS.md)
 
 ## Material Adicional
 

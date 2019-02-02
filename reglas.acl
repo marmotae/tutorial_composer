@@ -3,6 +3,24 @@
  * de blockchain
  */
 
+/**
+ * Reglas para el Administrador
+ */
+rule NetworkAdminUser {
+    description: "Grant business network administrators full access to user resources"
+    participant: "org.hyperledger.composer.system.NetworkAdmin"
+    operation: ALL
+    resource: "**"
+    action: ALLOW
+}
+
+rule NetworkAdminSystem {
+    description: "Grant business network administrators full access to system resources"
+    participant: "org.hyperledger.composer.system.NetworkAdmin"
+    operation: ALL
+    resource: "org.hyperledger.composer.system.**"
+    action: ALLOW
+}
 
 /**
  * Reglas para los comerciantes
@@ -29,25 +47,6 @@ rule ComercianteSystem {
     description: "Reglas para dar acceso al sistema al comerciante"
     participant: "org.tutorial.mercancias.Comerciante"
     operation: READ
-    resource: "org.hyperledger.composer.system.**"
-    action: ALLOW
-}
-
-/**
- * Reglas para el Administrador
- */
-rule NetworkAdminUser {
-    description: "Grant business network administrators full access to user resources"
-    participant: "org.hyperledger.composer.system.NetworkAdmin"
-    operation: ALL
-    resource: "**"
-    action: ALLOW
-}
-
-rule NetworkAdminSystem {
-    description: "Grant business network administrators full access to system resources"
-    participant: "org.hyperledger.composer.system.NetworkAdmin"
-    operation: ALL
     resource: "org.hyperledger.composer.system.**"
     action: ALLOW
 }
