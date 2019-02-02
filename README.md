@@ -14,6 +14,7 @@ El material de este tutorial abarca las siguientes secciones
 5. [Modelando el Contrato Inteligente](LOGIC.md)
 6. [Entendiendo las Reglas de Acceso](REGLAS.md)
 7. [Definiendo las Reglas para Nuestro Ejemplo](TUTREGLAS.md)
+8. [Resolviendo el Reto](RETO01.md)
 
 ## Material Adicional
 
