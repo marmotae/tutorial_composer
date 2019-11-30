@@ -11,7 +11,7 @@ Algunos ensayos y libros interesantes sobre el comportamiento económico de las 
 
 2. Networks and compatibility:  Implications for antitrust
 
-   Este análisis escrito también por Nicholas Economides en 1994, presenta un estudio al respecto de la compatibilidad entre redes y su impacto en la competencia entre participantes. Este artículo puede ser descargado [aquí] (http://neconomides.stern.nyu.edu/networks/Economides_White_Networks_and_Compatibility_Implications_for_Antitrust.pdf)
+   Este análisis escrito también por Nicholas Economides en 1994, presenta un estudio al respecto de la compatibilidad entre redes y su impacto en la competencia entre participantes. Este artículo puede ser descargado [aquí](http://neconomides.stern.nyu.edu/networks/Economides_White_Networks_and_Compatibility_Implications_for_Antitrust.pdf)
 
 3. The Oxford Handbook of the Economics of Networks
 
