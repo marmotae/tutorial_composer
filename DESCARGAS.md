@@ -2,8 +2,10 @@
 ## 1. Introducción
 Estas son diversas descargas que pueden ser usadas por los estudiantes para replicar el taller y para referenciar el material teórico impartido durante la primera sesión
 
-## 2. Presentación
+## 2. Presentaciones
 La presentación utilizada durante la sesión teórica puede ser descargada [aquí](https://ibm.box.com/s/tmfzq0hvfp2bx16uz3mn2by4ew2kfd2n)
+
+La presentación para el tema adicional de estrategia de diseño de red puede ser descargada [aquí](https://ibm.box.com/s/szdf1qyopfi18yt2vmyptyo7r51tnzmp)
 
 ## 3. Modelo
 Una copia del modelo desarrollado durante la segunda sesión puede ser descargada [aquí](./modelo/modelo.bna)
