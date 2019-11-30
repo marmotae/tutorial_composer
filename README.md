@@ -20,5 +20,9 @@ El material de este tutorial abarca las siguientes secciones
 
 Se ha colocado el material adicional en la sección de [Descargas](DESCARGAS.md)
 
+## Bibliografía
+
+El curso no requiere formalmente bibliografía adicional, sin embargo se incluye en la sección de [Bibliografía](BIBLIOGRAFIA.md) varios documentos y libros que se recomiendan para aquellos de Ustedes que gusten estudiar mas sobre los tópicos expuestos en el curso
+
 ## Licencia
 Este material se presenta bajo la licencia [Apache 2.0](LICENSE).
