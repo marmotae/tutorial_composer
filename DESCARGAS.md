@@ -5,7 +5,7 @@ Estas son diversas descargas que pueden ser usadas por los estudiantes para repl
 ## 2. Presentaciones
 La presentación utilizada durante la sesión teórica puede ser descargada [aquí](https://ibm.box.com/s/tmfzq0hvfp2bx16uz3mn2by4ew2kfd2n)
 
-La presentación para el tema adicional de estrategia de diseño de red puede ser descargada [aquí](https://ibm.box.com/s/szdf1qyopfi18yt2vmyptyo7r51tnzmp)
+La presentación para el tema adicional de estrategia de diseño de red puede ser descargada [aquí](https://ibm.box.com/s/gnideoo3h91qpf7c9dnjuvxq6emzb07g)
 
 ## 3. Modelo
 Una copia del modelo desarrollado durante la segunda sesión puede ser descargada [aquí](./modelo/modelo.bna)
