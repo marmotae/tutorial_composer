@@ -1,6 +1,6 @@
 # Primer Reto
 ## Introducción
-En este primer reto, se busca que el alumno pueda modificar el modelo creado originalmente para poder agregar un nuevo tipo de participante, "El Mercado" y definir las reglas necesarias para que sólo dicho participante pueda crear mercancías. El modelo hasta este punto se puede consultar (aquí)[https://github.com/marmotae/tutorial_composer/modelo/tutorial.bna]
+En este primer reto, se busca que el alumno pueda modificar el modelo creado originalmente para poder agregar un nuevo tipo de participante, "El Mercado" y definir las reglas necesarias para que sólo dicho participante pueda crear mercancías. El modelo hasta este punto se puede consultar [aquí](https://github.com/marmotae/tutorial_composer/modelo/tutorial.bna).
 
 ## 1. Modificando el Modelo
 El modelo se modifica para agregar ahora el participante tipo Mercado de la siguiente forma:
