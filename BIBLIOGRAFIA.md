@@ -30,7 +30,7 @@ Algunos libros interesantes para abundar sobre el tema de blockchain.
 
 2. Blockchain for Business
 
-   Este libro tiene un enfoque mas estratégico y de negocio mas que ser una aproximación netamente técnica. Este resulta muy recomendable para las personas que están analizando como introducir Blockchain dentro de modelos de negocio existentes o bien para crear nuevos modelos de negocio basados en tecnologías distribuidas. El libro se puede comprar [aquí](https://amzn.to/36JouUR)
+   Este libro tiene un enfoque mas estratégico y de negocio mas que ser una aproximación netamente técnica. Este resulta muy recomendable para las personas que están analizando como introducir Blockchain dentro de modelos de negocio existentes o bien para crear nuevos modelos de negocio basados en tecnologías distribuidas. El libro se puede comprar [aquí](https://amzn.to/2M53Bf7)
 
 3. Blockchain Development with Hyperledger
 
