@@ -39,3 +39,9 @@ Algunos libros interesantes para abundar sobre el tema de blockchain.
 4. El Internet del Dinero
 
    Este libro es un clásico de Andreas Antonopoulos que explica los principios básicos de los blockchains con cripto activos (con foco primordial en __BitCoin__) por lo que resulta mas similar a el material a ser cubierto en la 4a clase de este módulo. El libro se puede comprar [aquí](https://amzn.to/34wARSS).
+
+## 4. Cultura General
+
+1. The Ascent of Money
+
+   Este excelente libro estudia el proceso histórico de la creación del dinero y los diversos elementos del sistema financiero como el mercado de valores, el mercado de bonos y los seguros. Sirve como una excelente introducción a la teoría de como los mercados que desde el cacao hasta el bitcoin siguen teniendo los mismos fundamentales. El libro de puede comprar [aquí](https://amzn.to/2szkPua).
