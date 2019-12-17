@@ -7,7 +7,7 @@ Algunos ensayos y libros interesantes sobre el comportamiento económico de las 
 
 1. The Economics of Networks
 
-   Este es un ensayo escrito por Nicholas Economides en 1994 y actualizado posteriormente en 1995 en donde analiza la estructura económica de las redes y sus similitudes con otras industrias. Este documento puede ser descargado [aquí](https://ibm.box.com/s/ncireyiaiy3iz6d3fwvqxf3otvqdxv3g)
+   Este es un ensayo escrito por Nicholas Economides en 1994 y actualizado posteriormente en 1995 en donde analiza la estructura económica de las redes y sus similitudes con otras industrias. Este documento puede ser descargado [aquí](https://ibm.box.com/s/stpv0hnm2j469d84g4oietk3zrvi1cvu)
 
 2. Networks and compatibility:  Implications for antitrust
 
